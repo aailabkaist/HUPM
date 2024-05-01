@@ -1,0 +1,10 @@
+Munch({'seed': 1, 'ss_seed': 999, 'ss_frac_train': 1.0, 'ss_frac_val': 1.0, 'val_frac': 0.2, 'split_seed': 1200, 'train_set_variant': 'observed', 'val_set_variant': 'clean', 'arch': 'resnet50', 'use_pretrained': True, 'num_epochs': 100, 'label_proportion': None, 'image_path': 'IMAGE_PATH', 'save_path': './results', 'exp_name': 'hw_cars_1e-4_16_1_0.2_TEST_1', 'num_workers': 4, 'gpu_num': '0', 'flag': 'TEST_1', 'dataset': 'cars', 'delta_rel': 0.0001, 'permanent': False, 'stop': False, 'optimizer': 'adam', 'mod_scheme': 'hw', 'bsize': 16, 'lr': 0.0001, 'lr_mult': 10, 'hier_threshold': 0.2, 'iter_epoch': 1, 'my_cont': False, 'true_edge': False, 'weight_sampler': False, 'weight_classifier': False, 'weight_classifier_ver': '1.1', 'edge_w_mult': 1, 'no_extract': False, 'edge_init_type': 'none', 'edge_random_prop': 0, 'edge_random_weight': 0.2, 'edge_load_epoch': None, 'skip_epoch': 0, 'edge_fix': False, 'sampling_child': False, 'mod_warmup': 'an', 'warmup_epoch': 1, 'warmup_pretrained': False, 'gamma_before': None, 'gamma_after': 1, 'num_layers': 3, 'dropout': 0.7, 'nonlin': 'relu', 'bsize+': None, 'lr+': None, 'hier_threshold+': None, 'iter_epoch+': None, 'delta_rel+': None, 'skip_i+': None, 'checkpoint': None, 'checkmodel': None, 'checkpoint+': None, 'checkmodel+': None, 'test': False, 'edge': False, 'correction': False, 'my_label': False, 'val_best_th': -1, 'test_all': False, 'test_leaf': False, 'tsne': False, 'tsne_p': False, 'ablation': False, 'reduce_ratio': 1.0, 'dist': False, 'hw_ratio': None, 'hw_ratio+': None, 'child_conf': 0, 'constraint': False, 'train': True, 'extract': True, 'feat_dim': 2048, 'num_classes': 205, 'result_path': './results/hw_cars_1e-4_16_1_0.2_TEST_1/final_result.txt', 'save_dir': './results/hw_cars_1e-4_16_1_0.2_TEST_1/TEST_1', 'my': True, 'HMC': False, 'R': tensor([[[1., 0., 0.,  ..., 0., 0., 0.],
+         [0., 1., 0.,  ..., 0., 0., 0.],
+         [0., 0., 1.,  ..., 0., 0., 0.],
+         ...,
+         [0., 0., 0.,  ..., 1., 0., 0.],
+         [0., 0., 0.,  ..., 0., 1., 0.],
+         [0., 0., 0.,  ..., 0., 0., 1.]]], dtype=torch.float64), 'edges': []})
+hw_cars_1e-4_16_1_0.2_TEST_1
+Running on GPU 0
+Early Stop Off
